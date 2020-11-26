@@ -1,1 +1,1 @@
-worker: node bat.py
+worker: node run.py
