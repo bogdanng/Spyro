@@ -1,0 +1,293 @@
+[98.184347153] 2020-11-26 10:42:44,109 - INFO - launcher: Starting sanity checks
+[99.181890488] 2020-11-26 10:42:44,110 - INFO - launcher: Checking for Python 3.5+
+[101.175785065] 2020-11-26 10:42:44,112 - INFO - launcher: Checking console encoding
+[101.175785065] 2020-11-26 10:42:44,112 - INFO - launcher: Setting console encoding to UTF-8
+[101.175785065] 2020-11-26 10:42:44,112 - INFO - launcher: Ensuring we're in the right environment
+[102.172851562] 2020-11-26 10:42:44,113 - INFO - launcher: Adding local bins/ folder to path
+[756.877899170] 2020-11-26 10:42:44,768 - INFO - launcher: Required checks passed.
+[756.877899170] 2020-11-26 10:42:44,768 - INFO - launcher: Optional checks passed.
+[756.877899170] 2020-11-26 10:42:44,768 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[1.5942215919494629] 2020-11-26 10:42:45,605 - INFO - musicbot.config | In config.py::MainThread(4148), line 132 in run_checks: Using i18n: config/i18n/en.json
+[1.5952689647674561] 2020-11-26 10:42:45,606 - WARNING - musicbot.config | In config.py::MainThread(4148), line 198 in run_checks: NowPlayingChannels data is invalid, will use the default behavior for all servers
+[1.6012027263641357] 2020-11-26 10:42:45,612 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 225 in _setup_logging: Set logging level to INFO
+[1.6071860790252686] 2020-11-26 10:42:45,618 - DEBUG - musicbot.json | In json.py::MainThread(4148), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[1.6371066570281982] 2020-11-26 10:42:45,648 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 90 in __init__: Starting MusicBot release-260819-5-gc87dc05
+[1.6381030082702637] 2020-11-26 10:42:45,649 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 96 in __init__: Loaded autoplaylist with 2524 entries
+[1.8104405403137207] 2020-11-26 10:42:45,821 - DEBUG - musicbot.spotify | In spotify.py::MainThread(4148), line 74 in get_token: Created a new access token: {'access_token': 'BQCfTjTkvUHaPVW3vG-WmVr43mOr4RqETewtvChtglEYIWvgYuhu6snopN-R2-gvg622p_4uqO9i2Z2b6oA', 'token_type': 'Bearer', 'expires_in': 3600, 'scope': '', 'expires_at': 1606383765}
+[1.8104405403137207] 2020-11-26 10:42:45,821 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 121 in __init__: Authenticated with Spotify successfully using client ID and secret.
+[4.6450159549713135] 2020-11-26 10:42:48,656 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 951 in on_ready: Connection established, ready to go.
+[4.6450159549713135] 2020-11-26 10:42:48,656 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 342 in _cache_app_info: Caching app info
+[4.8142185211181641] 2020-11-26 10:42:48,825 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 773 in _scheck_ensure_env: Ensuring data folders exist
+[4.8182077407836914] 2020-11-26 10:42:48,829 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 783 in _scheck_ensure_env: Deleted old audio cache
+[4.8182077407836914] 2020-11-26 10:42:48,829 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 789 in _scheck_server_permissions: Checking server permissions
+[4.8182077407836914] 2020-11-26 10:42:48,829 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 793 in _scheck_autoplaylist: Auditing autoplaylist
+[4.8182077407836914] 2020-11-26 10:42:48,829 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 797 in _scheck_configs: Validating config
+[4.8182077407836914] 2020-11-26 10:42:48,829 - DEBUG - musicbot.config | In config.py::MainThread(4148), line 236 in async_validate: Validating options...
+[4.8182077407836914] 2020-11-26 10:42:48,829 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 800 in _scheck_configs: Validating permissions config
+[4.8182077407836914] 2020-11-26 10:42:48,829 - DEBUG - musicbot.permissions | In permissions.py::MainThread(4148), line 94 in async_validate: Validating permissions...
+[4.8182077407836914] 2020-11-26 10:42:48,829 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 968 in on_ready: Connected: 781152682845011988/SpyRo#9036
+[4.8192052841186523] 2020-11-26 10:42:48,830 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 976 in on_ready: Owner:     319744900126081024/☼Bogdan112☼#6969
+
+[4.8192052841186523] 2020-11-26 10:42:48,830 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 979 in on_ready: Guild List:
+[4.8202016353607178] 2020-11-26 10:42:48,831 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 983 in on_ready:  - Speeweed lounge
+[4.8202016353607178] 2020-11-26 10:42:48,831 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 983 in on_ready:  - ☼𝐑𝐎 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲
+[4.8222503662109375] 2020-11-26 10:42:48,833 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 1039 in on_ready: Not bound to any text channels
+[4.8222503662109375] 2020-11-26 10:42:48,833 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 1065 in on_ready: Not autojoining any voice channels
+[4.8231937885284424] 2020-11-26 10:42:48,834 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 272 in _join_startup_channels: Found owner in "Priv adm+Higher"
+[4.8231937885284424] 2020-11-26 10:42:48,834 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 281 in _join_startup_channels: Attempting to join ☼𝐑𝐎 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲/Priv adm+Higher
+[5.4214899539947510] 2020-11-26 10:42:49,432 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 733 in deserialize_queue: Deserializing queue for 767061290098360340
+[5.5881943702697754] 2020-11-26 10:42:49,599 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 425 in get_player: Created player via deserialization for guild 767061290098360340 with 1 entries
+[5.5881943702697754] 2020-11-26 10:42:49,599 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 297 in _join_startup_channels: Joined ☼𝐑𝐎 𝐂𝐨𝐦𝐦𝐮𝐧𝐢𝐭𝐲/Priv adm+Higher
+[5.5891916751861572] 2020-11-26 10:42:49,600 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for None
+[5.5901870727539062] 2020-11-26 10:42:49,601 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 292 in _really_download: Download started: https://youtube.com/watch?v=xMz3AwBE4ZQ
+[8.3967232704162598] 2020-11-26 10:42:52,408 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 302 in _really_download: Download complete: https://youtube.com/watch?v=xMz3AwBE4ZQ
+[8.3997046947479248] 2020-11-26 10:42:52,411 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 270 in get_mean_volume: Calculating mean volume of audio_cache\youtube-xMz3AwBE4ZQ-Panda_Eyes_-_Radiate.webm
+[8.4036591053009033] 2020-11-26 10:42:52,414 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 244 in run_command: Starting asyncio subprocess (<Process 4344>) with command: "C:\Users\User\Desktop\Disc Bot\MusicBot\bin\ffmpeg" -i "audio_cache\youtube-xMz3AwBE4ZQ-Panda_Eyes_-_Radiate.webm" -af "volumedetect" -f null /dev/null
+[10.0966794490814209] 2020-11-26 10:42:54,108 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 287 in get_mean_volume: Calculated mean volume as -10.8
+[10.0966794490814209] 2020-11-26 10:42:54,108 - FFMPEG - musicbot.player | In player.py::MainThread(4148), line 293 in _play: Creating player with options: -nostdin -af "volume=-0.0dB" audio_cache\youtube-xMz3AwBE4ZQ-Panda_Eyes_-_Radiate.webm
+[10.0986747741699219] 2020-11-26 10:42:54,110 - DEBUG - musicbot.player | In player.py::MainThread(4148), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x05750570> using <discord.voice_client.VoiceClient object at 0x05747C90>
+[10.1004619598388672] 2020-11-26 10:42:54,111 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 460 in on_player_play: Running on_player_play
+[10.1004619598388672] 2020-11-26 10:42:54,111 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[10.1004619598388672] 2020-11-26 10:42:54,111 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 514 in on_player_play: no channel to put now playing message into
+[53.8735320568084717] 2020-11-26 10:43:37,884 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -clear
+[62.3365371227264404] 2020-11-26 10:43:46,347 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p dum dee dum
+[64.2589702606201172] 2020-11-26 10:43:48,270 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:dum dee dum', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'dum dee dum', 'webpage_url_basename': 'dum dee dum', 'extractor_key': 'Generic'}
+[67.4469251632690430] 2020-11-26 10:43:51,458 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for None
+[67.4478981494903564] 2020-11-26 10:43:51,459 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[67.4478981494903564] 2020-11-26 10:43:51,459 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[67.4489195346832275] 2020-11-26 10:43:51,460 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=Dg6HQ8RlPGQ
+[69.7149374485015869] 2020-11-26 10:43:53,726 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=Dg6HQ8RlPGQ
+[69.7169699668884277] 2020-11-26 10:43:53,728 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 270 in get_mean_volume: Calculating mean volume of audio_cache\youtube-Dg6HQ8RlPGQ-Keys_N_Krates_-_Dum_Dee_Dum_JiKay_Remix_OFFICIAL.webm
+[69.7199316024780273] 2020-11-26 10:43:53,731 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 244 in run_command: Starting asyncio subprocess (<Process 4556>) with command: "C:\Users\User\Desktop\Disc Bot\MusicBot\bin\ffmpeg" -i "audio_cache\youtube-Dg6HQ8RlPGQ-Keys_N_Krates_-_Dum_Dee_Dum_JiKay_Remix_OFFICIAL.webm" -af "volumedetect" -f null /dev/null
+[70.4902811050415039] 2020-11-26 10:43:54,501 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 287 in get_mean_volume: Calculated mean volume as -11.4
+[76.5271964073181152] 2020-11-26 10:44:00,538 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p killshot
+[78.4613013267517090] 2020-11-26 10:44:02,472 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:killshot', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'killshot', 'webpage_url_basename': 'killshot', 'extractor_key': 'Generic'}
+[81.5265657901763916] 2020-11-26 10:44:05,537 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p darkness
+[82.0167396068572998] 2020-11-26 10:44:06,028 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[82.0167396068572998] 2020-11-26 10:44:06,028 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[83.7032299041748047] 2020-11-26 10:44:07,714 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:darkness', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'darkness', 'webpage_url_basename': 'darkness', 'extractor_key': 'Generic'}
+[86.9498026371002197] 2020-11-26 10:44:10,961 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[86.9498026371002197] 2020-11-26 10:44:10,961 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[117.0148370265960693] 2020-11-26 10:44:41,026 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p https://www.youtube.com/playlist?list=PLnwZdUix2XkGH_ssKuoVjLg4d1h5SvRqK
+[133.6951782703399658] 2020-11-26 10:44:57,706 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -q
+[139.4787700176239014] 2020-11-26 10:45:03,490 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'playlist', 'entries': <generator object YoutubeTabIE._entries at 0x05F31AF0>, 'id': 'PLnwZdUix2XkGH_ssKuoVjLg4d1h5SvRqK', 'title': 'MOOD Playlist', 'uploader': 'CMV', 'uploader_id': 'UCIjLRyywnG8olYXAEVYGYgQ', 'uploader_url': 'https://www.youtube.com/c/CMVBD', 'extractor': 'youtube:tab', 'webpage_url': 'https://www.youtube.com/playlist?list=PLnwZdUix2XkGH_ssKuoVjLg4d1h5SvRqK', 'webpage_url_basename': 'playlist', 'extractor_key': 'YoutubeTab'}
+[145.1248333454132080] 2020-11-26 10:45:09,136 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -clear
+[153.3768501281738281] 2020-11-26 10:45:17,388 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p dum dee dum
+[159.6490697860717773] 2020-11-26 10:45:23,660 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p darkness
+[160.9975261688232422] 2020-11-26 10:45:25,008 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for None
+[161.0603570938110352] 2020-11-26 10:45:25,071 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 1532 in cmd_play: Processed 26 songs in 21.58 seconds at 0.83s/song, -0.37/song from expected (0s)
+[161.0633499622344971] 2020-11-26 10:45:25,074 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0633499622344971] 2020-11-26 10:45:25,074 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0643475055694580] 2020-11-26 10:45:25,075 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=b9_ERAmYDFQ
+[161.0653436183929443] 2020-11-26 10:45:25,076 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0673387050628662] 2020-11-26 10:45:25,078 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0683372020721436] 2020-11-26 10:45:25,079 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0693342685699463] 2020-11-26 10:45:25,080 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0703320503234863] 2020-11-26 10:45:25,081 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0703320503234863] 2020-11-26 10:45:25,081 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0713307857513428] 2020-11-26 10:45:25,082 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0713307857513428] 2020-11-26 10:45:25,082 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0723257064819336] 2020-11-26 10:45:25,083 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0723257064819336] 2020-11-26 10:45:25,083 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0733234882354736] 2020-11-26 10:45:25,084 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0733234882354736] 2020-11-26 10:45:25,084 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0743212699890137] 2020-11-26 10:45:25,085 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0743212699890137] 2020-11-26 10:45:25,085 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0753171443939209] 2020-11-26 10:45:25,086 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0753171443939209] 2020-11-26 10:45:25,086 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0763168334960938] 2020-11-26 10:45:25,087 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0763168334960938] 2020-11-26 10:45:25,087 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0773131847381592] 2020-11-26 10:45:25,088 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0783102512359619] 2020-11-26 10:45:25,089 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0783102512359619] 2020-11-26 10:45:25,089 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0783102512359619] 2020-11-26 10:45:25,089 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0793075561523438] 2020-11-26 10:45:25,090 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0793075561523438] 2020-11-26 10:45:25,090 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0803048610687256] 2020-11-26 10:45:25,091 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0803048610687256] 2020-11-26 10:45:25,091 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0813024044036865] 2020-11-26 10:45:25,092 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0813024044036865] 2020-11-26 10:45:25,092 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0824534893035889] 2020-11-26 10:45:25,093 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0824534893035889] 2020-11-26 10:45:25,093 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0832965373992920] 2020-11-26 10:45:25,094 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0832965373992920] 2020-11-26 10:45:25,094 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0842938423156738] 2020-11-26 10:45:25,095 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0842938423156738] 2020-11-26 10:45:25,095 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0842938423156738] 2020-11-26 10:45:25,095 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0852911472320557] 2020-11-26 10:45:25,096 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0852911472320557] 2020-11-26 10:45:25,096 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0852911472320557] 2020-11-26 10:45:25,096 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0862889289855957] 2020-11-26 10:45:25,097 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0862889289855957] 2020-11-26 10:45:25,097 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0872862339019775] 2020-11-26 10:45:25,098 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0872862339019775] 2020-11-26 10:45:25,098 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0882833003997803] 2020-11-26 10:45:25,099 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0882833003997803] 2020-11-26 10:45:25,099 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0892796516418457] 2020-11-26 10:45:25,100 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0892796516418457] 2020-11-26 10:45:25,100 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0902786254882812] 2020-11-26 10:45:25,101 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0902786254882812] 2020-11-26 10:45:25,101 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[161.0922780036926270] 2020-11-26 10:45:25,103 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[161.0922780036926270] 2020-11-26 10:45:25,103 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[162.8503608703613281] 2020-11-26 10:45:26,861 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:dum dee dum', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'dum dee dum', 'webpage_url_basename': 'dum dee dum', 'extractor_key': 'Generic'}
+[163.1409814357757568] 2020-11-26 10:45:27,152 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p killshot
+[166.2760949134826660] 2020-11-26 10:45:30,287 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[166.2760949134826660] 2020-11-26 10:45:30,287 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[166.5533852577209473] 2020-11-26 10:45:30,564 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -q
+[166.9024169445037842] 2020-11-26 10:45:30,913 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=b9_ERAmYDFQ
+[166.9064078330993652] 2020-11-26 10:45:30,917 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 270 in get_mean_volume: Calculating mean volume of audio_cache\youtube-b9_ERAmYDFQ-Mon_Kharaper_Deshe_IMRAN_Rothshi_Imran_New_Song_2017.m4a
+[166.9113934040069580] 2020-11-26 10:45:30,922 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 244 in run_command: Starting asyncio subprocess (<Process 3704>) with command: "C:\Users\User\Desktop\Disc Bot\MusicBot\bin\ffmpeg" -i "audio_cache\youtube-b9_ERAmYDFQ-Mon_Kharaper_Deshe_IMRAN_Rothshi_Imran_New_Song_2017.m4a" -af "volumedetect" -f null /dev/null
+[167.3647768497467041] 2020-11-26 10:45:31,376 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 287 in get_mean_volume: Calculated mean volume as -9.8
+[168.0400495529174805] 2020-11-26 10:45:32,051 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:darkness', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'darkness', 'webpage_url_basename': 'darkness', 'extractor_key': 'Generic'}
+[171.5274407863616943] 2020-11-26 10:45:35,538 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[171.5274407863616943] 2020-11-26 10:45:35,538 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[172.5404834747314453] 2020-11-26 10:45:36,551 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -clear
+[173.0657932758331299] 2020-11-26 10:45:37,077 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:killshot', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'killshot', 'webpage_url_basename': 'killshot', 'extractor_key': 'Generic'}
+[176.3318362236022949] 2020-11-26 10:45:40,343 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for None
+[176.3328323364257812] 2020-11-26 10:45:40,344 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[176.3328323364257812] 2020-11-26 10:45:40,344 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[176.3337903022766113] 2020-11-26 10:45:40,345 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=FxQTY-W6GIo
+[177.1987676620483398] 2020-11-26 10:45:41,210 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -clean 10
+[179.0262413024902344] 2020-11-26 10:45:43,037 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=FxQTY-W6GIo
+[179.0282711982727051] 2020-11-26 10:45:43,039 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 270 in get_mean_volume: Calculating mean volume of audio_cache\youtube-FxQTY-W6GIo-KILLSHOT_Official_Audio.webm
+[179.0312268733978271] 2020-11-26 10:45:43,042 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 244 in run_command: Starting asyncio subprocess (<Process 6556>) with command: "C:\Users\User\Desktop\Disc Bot\MusicBot\bin\ffmpeg" -i "audio_cache\youtube-FxQTY-W6GIo-KILLSHOT_Official_Audio.webm" -af "volumedetect" -f null /dev/null
+[180.1266810894012451] 2020-11-26 10:45:44,138 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 287 in get_mean_volume: Calculated mean volume as -8.0
+[191.8478727340698242] 2020-11-26 10:45:55,859 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "", message not found
+[192.9112250804901123] 2020-11-26 10:45:56,922 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p dum dee dup
+[193.0557866096496582] 2020-11-26 10:45:57,067 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "", message not found
+[193.2134923934936523] 2020-11-26 10:45:57,224 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "-clear", message not found
+[194.8217661380767822] 2020-11-26 10:45:58,833 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:dum dee dup', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'dum dee dup', 'webpage_url_basename': 'dum dee dup', 'extractor_key': 'Generic'}
+[196.9756402969360352] 2020-11-26 10:46:00,986 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "-clean 10", message not found
+[197.4647493362426758] 2020-11-26 10:46:01,476 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "", message not found
+[197.7775430679321289] 2020-11-26 10:46:01,788 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "", message not found
+[197.9894816875457764] 2020-11-26 10:46:02,000 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "-q", message not found
+[198.3186016082763672] 2020-11-26 10:46:02,329 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[198.3186016082763672] 2020-11-26 10:46:02,329 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[200.5636916160583496] 2020-11-26 10:46:04,575 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p darknes
+[202.1848781108856201] 2020-11-26 10:46:06,196 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "-p darkness", message not found
+[202.3668248653411865] 2020-11-26 10:46:06,378 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "", message not found
+[202.6620404720306396] 2020-11-26 10:46:06,673 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:darknes', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'darknes', 'webpage_url_basename': 'darknes', 'extractor_key': 'Generic'}
+[206.2876007556915283] 2020-11-26 10:46:10,298 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[206.2885980606079102] 2020-11-26 10:46:10,299 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[206.8121938705444336] 2020-11-26 10:46:10,823 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "", message not found
+[206.9967269897460938] 2020-11-26 10:46:11,008 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "-p killshot", message not found
+[212.6088218688964844] 2020-11-26 10:46:16,620 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p godzilla
+[213.9436490535736084] 2020-11-26 10:46:17,954 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:godzilla', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'godzilla', 'webpage_url_basename': 'godzilla', 'extractor_key': 'Generic'}
+[214.8691506385803223] 2020-11-26 10:46:18,880 - ERROR - musicbot.bot | In bot.py::MainThread(4148), line 2858 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Disc Bot\MusicBot\musicbot\bot.py", line 2813, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\User\Desktop\Disc Bot\MusicBot\musicbot\bot.py", line 1466, in cmd_play
+    song_url = info['entries'][0]['webpage_url']
+IndexError: list index out of range
+[228.3845100402832031] 2020-11-26 10:46:32,395 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p godzilla
+[229.4082500934600830] 2020-11-26 10:46:33,419 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:godzilla', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'godzilla', 'webpage_url_basename': 'godzilla', 'extractor_key': 'Generic'}
+[230.2911226749420166] 2020-11-26 10:46:34,302 - ERROR - musicbot.bot | In bot.py::MainThread(4148), line 2858 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Disc Bot\MusicBot\musicbot\bot.py", line 2813, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\User\Desktop\Disc Bot\MusicBot\musicbot\bot.py", line 1466, in cmd_play
+    song_url = info['entries'][0]['webpage_url']
+IndexError: list index out of range
+[232.5509009361267090] 2020-11-26 10:46:36,562 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -q
+[273.2910304069519043] 2020-11-26 10:47:17,302 - DEBUG - musicbot.player | In player.py::Thread-3(9252), line 220 in _playback_finished: Deleting file: audio_cache\youtube-xMz3AwBE4ZQ-Panda_Eyes_-_Radiate.webm
+[273.2920258045196533] 2020-11-26 10:47:17,303 - DEBUG - musicbot.player | In player.py::Thread-3(9252), line 225 in _playback_finished: File deleted: audio_cache\youtube-xMz3AwBE4ZQ-Panda_Eyes_-_Radiate.webm
+[275.7613296508789062] 2020-11-26 10:47:19,772 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[275.7613296508789062] 2020-11-26 10:47:19,772 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[275.7623353004455566] 2020-11-26 10:47:19,773 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for None
+[275.7623353004455566] 2020-11-26 10:47:19,773 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for audio_cache\youtube-FxQTY-W6GIo-KILLSHOT_Official_Audio.webm
+[275.7623353004455566] 2020-11-26 10:47:19,773 - FFMPEG - musicbot.player | In player.py::MainThread(4148), line 293 in _play: Creating player with options: -nostdin -af "volume=-0.0dB" audio_cache\youtube-FxQTY-W6GIo-KILLSHOT_Official_Audio.webm
+[275.7653207778930664] 2020-11-26 10:47:19,776 - DEBUG - musicbot.player | In player.py::MainThread(4148), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x0570BBD0> using <discord.voice_client.VoiceClient object at 0x05747C90>
+[275.7663195133209229] 2020-11-26 10:47:19,777 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 207 in _download: Download cached: https://www.youtube.com/watch?v=Dg6HQ8RlPGQ
+[275.7663195133209229] 2020-11-26 10:47:19,777 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 270 in get_mean_volume: Calculating mean volume of audio_cache\youtube-Dg6HQ8RlPGQ-Keys_N_Krates_-_Dum_Dee_Dum_JiKay_Remix_OFFICIAL.webm
+[275.7703077793121338] 2020-11-26 10:47:19,781 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 460 in on_player_play: Running on_player_play
+[275.7703077793121338] 2020-11-26 10:47:19,781 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[275.7733001708984375] 2020-11-26 10:47:19,784 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 244 in run_command: Starting asyncio subprocess (<Process 11716>) with command: "C:\Users\User\Desktop\Disc Bot\MusicBot\bin\ffmpeg" -i "audio_cache\youtube-Dg6HQ8RlPGQ-Keys_N_Krates_-_Dum_Dee_Dum_JiKay_Remix_OFFICIAL.webm" -af "volumedetect" -f null /dev/null
+[276.6491560935974121] 2020-11-26 10:47:20,660 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 287 in get_mean_volume: Calculated mean volume as -11.4
+[285.1477017402648926] 2020-11-26 10:47:29,159 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -q
+[291.0381219387054443] 2020-11-26 10:47:35,049 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p godzilla
+[292.2254841327667236] 2020-11-26 10:47:36,236 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:godzilla', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'godzilla', 'webpage_url_basename': 'godzilla', 'extractor_key': 'Generic'}
+[293.2038593292236328] 2020-11-26 10:47:37,215 - ERROR - musicbot.bot | In bot.py::MainThread(4148), line 2858 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Disc Bot\MusicBot\musicbot\bot.py", line 2813, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\User\Desktop\Disc Bot\MusicBot\musicbot\bot.py", line 1466, in cmd_play
+    song_url = info['entries'][0]['webpage_url']
+IndexError: list index out of range
+[307.5024454593658447] 2020-11-26 10:47:51,513 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p godzilla
+[308.6597075462341309] 2020-11-26 10:47:52,671 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:godzilla', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'godzilla', 'webpage_url_basename': 'godzilla', 'extractor_key': 'Generic'}
+[309.7443792819976807] 2020-11-26 10:47:53,755 - ERROR - musicbot.bot | In bot.py::MainThread(4148), line 2858 in on_message: Exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\User\Desktop\Disc Bot\MusicBot\musicbot\bot.py", line 2813, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\User\Desktop\Disc Bot\MusicBot\musicbot\bot.py", line 1466, in cmd_play
+    song_url = info['entries'][0]['webpage_url']
+IndexError: list index out of range
+[324.6631276607513428] 2020-11-26 10:48:08,674 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p back in black
+[326.7691621780395508] 2020-11-26 10:48:10,780 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:back in black', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'back in black', 'webpage_url_basename': 'back in black', 'extractor_key': 'Generic'}
+[330.3651769161224365] 2020-11-26 10:48:14,376 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[330.3651769161224365] 2020-11-26 10:48:14,376 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[340.9625556468963623] 2020-11-26 10:48:24,973 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p godzilla eminem
+[342.9287126064300537] 2020-11-26 10:48:26,940 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:godzilla eminem', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'godzilla eminem', 'webpage_url_basename': 'godzilla eminem', 'extractor_key': 'Generic'}
+[346.4311783313751221] 2020-11-26 10:48:30,442 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[346.4311783313751221] 2020-11-26 10:48:30,442 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[362.1202013492584229] 2020-11-26 10:48:46,131 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p all the way up
+[363.8456239700317383] 2020-11-26 10:48:47,856 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:all the way up', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'all the way up', 'webpage_url_basename': 'all the way up', 'extractor_key': 'Generic'}
+[367.3825373649597168] 2020-11-26 10:48:51,393 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[367.3825373649597168] 2020-11-26 10:48:51,393 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[374.3266804218292236] 2020-11-26 10:48:58,338 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p magic in the summer
+[376.1793601512908936] 2020-11-26 10:49:00,190 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:magic in the summer', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'magic in the summer', 'webpage_url_basename': 'magic in the summer', 'extractor_key': 'Generic'}
+[379.6149399280548096] 2020-11-26 10:49:03,626 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[379.6149399280548096] 2020-11-26 10:49:03,626 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[386.2915036678314209] 2020-11-26 10:49:10,302 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p balck m sur ma route
+[388.1718595027923584] 2020-11-26 10:49:12,183 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:balck m sur ma route', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'balck m sur ma route', 'webpage_url_basename': 'balck m sur ma route', 'extractor_key': 'Generic'}
+[391.5125827789306641] 2020-11-26 10:49:15,523 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[391.5135807991027832] 2020-11-26 10:49:15,524 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[392.9043960571289062] 2020-11-26 10:49:16,915 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -p chez moi blakc m
+[394.6781094074249268] 2020-11-26 10:49:18,689 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 1408 in cmd_play: {'_type': 'url', 'url': 'ytsearch:chez moi blakc m', 'ie_key': None, 'extractor': 'generic', 'webpage_url': 'chez moi blakc m', 'webpage_url_basename': 'chez moi blakc m', 'extractor_key': 'Generic'}
+[397.9474215507507324] 2020-11-26 10:49:21,958 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 624 in on_player_entry_added: Running on_player_entry_added
+[397.9484221935272217] 2020-11-26 10:49:21,959 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[438.6088054180145264] 2020-11-26 10:50:02,620 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -clean 12
+[455.0413956642150879] 2020-11-26 10:50:19,052 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "-clean 12", message not found
+[529.3724248409271240] 2020-11-26 10:51:33,383 - DEBUG - musicbot.player | In player.py::Thread-8(7196), line 220 in _playback_finished: Deleting file: audio_cache\youtube-FxQTY-W6GIo-KILLSHOT_Official_Audio.webm
+[529.3734230995178223] 2020-11-26 10:51:33,384 - DEBUG - musicbot.player | In player.py::Thread-8(7196), line 225 in _playback_finished: File deleted: audio_cache\youtube-FxQTY-W6GIo-KILLSHOT_Official_Audio.webm
+[531.1760065555572510] 2020-11-26 10:51:35,187 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[531.4663760662078857] 2020-11-26 10:51:35,477 - WARNING - musicbot.bot | In bot.py::MainThread(4148), line 857 in safe_delete_message: Cannot delete message "@[mi-l sug] ☼Bogdan112 - your song `KILLSHOT [Official Audio]` is now playing in `Priv adm+Higher`!", message not found
+[531.4683697223663330] 2020-11-26 10:51:35,479 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[531.4693951606750488] 2020-11-26 10:51:35,480 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for None
+[531.4693951606750488] 2020-11-26 10:51:35,480 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for audio_cache\youtube-Dg6HQ8RlPGQ-Keys_N_Krates_-_Dum_Dee_Dum_JiKay_Remix_OFFICIAL.webm
+[531.4693951606750488] 2020-11-26 10:51:35,480 - FFMPEG - musicbot.player | In player.py::MainThread(4148), line 293 in _play: Creating player with options: -nostdin -af "volume=-0.0dB" audio_cache\youtube-Dg6HQ8RlPGQ-Keys_N_Krates_-_Dum_Dee_Dum_JiKay_Remix_OFFICIAL.webm
+[531.4723455905914307] 2020-11-26 10:51:35,483 - DEBUG - musicbot.player | In player.py::MainThread(4148), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x05F45230> using <discord.voice_client.VoiceClient object at 0x05747C90>
+[531.4733424186706543] 2020-11-26 10:51:35,484 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=RHQC4fAhcbU
+[531.4743595123291016] 2020-11-26 10:51:35,485 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 460 in on_player_play: Running on_player_play
+[531.4773321151733398] 2020-11-26 10:51:35,488 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[534.4941875934600830] 2020-11-26 10:51:38,505 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=RHQC4fAhcbU
+[534.4961817264556885] 2020-11-26 10:51:38,507 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 270 in get_mean_volume: Calculating mean volume of audio_cache\youtube-RHQC4fAhcbU-Eminem_-_Darkness_Official_Video.webm
+[534.5001718997955322] 2020-11-26 10:51:38,511 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 244 in run_command: Starting asyncio subprocess (<Process 6172>) with command: "C:\Users\User\Desktop\Disc Bot\MusicBot\bin\ffmpeg" -i "audio_cache\youtube-RHQC4fAhcbU-Eminem_-_Darkness_Official_Video.webm" -af "volumedetect" -f null /dev/null
+[537.1661953926086426] 2020-11-26 10:51:41,177 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 287 in get_mean_volume: Calculated mean volume as 0.0
+[714.2020649909973145] 2020-11-26 10:54:38,213 - DEBUG - musicbot.player | In player.py::Thread-9(9228), line 220 in _playback_finished: Deleting file: audio_cache\youtube-Dg6HQ8RlPGQ-Keys_N_Krates_-_Dum_Dee_Dum_JiKay_Remix_OFFICIAL.webm
+[714.2030498981475830] 2020-11-26 10:54:38,214 - DEBUG - musicbot.player | In player.py::Thread-9(9228), line 225 in _playback_finished: File deleted: audio_cache\youtube-Dg6HQ8RlPGQ-Keys_N_Krates_-_Dum_Dee_Dum_JiKay_Remix_OFFICIAL.webm
+[716.5270864963531494] 2020-11-26 10:54:40,538 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 536 in on_player_finished_playing: Running on_player_finished_playing
+[716.7858433723449707] 2020-11-26 10:54:40,797 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[716.7878849506378174] 2020-11-26 10:54:40,799 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for None
+[716.7888338565826416] 2020-11-26 10:54:40,800 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 56 in get_ready_future: Created future for audio_cache\youtube-RHQC4fAhcbU-Eminem_-_Darkness_Official_Video.webm
+[716.7888338565826416] 2020-11-26 10:54:40,800 - FFMPEG - musicbot.player | In player.py::MainThread(4148), line 293 in _play: Creating player with options: -nostdin -af "volume=-0.0dB" audio_cache\youtube-RHQC4fAhcbU-Eminem_-_Darkness_Official_Video.webm
+[716.7928223609924316] 2020-11-26 10:54:40,804 - DEBUG - musicbot.player | In player.py::MainThread(4148), line 306 in _play: Playing <musicbot.player.SourcePlaybackCounter object at 0x05F2E270> using <discord.voice_client.VoiceClient object at 0x05747C90>
+[716.7938194274902344] 2020-11-26 10:54:40,805 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 292 in _really_download: Download started: https://www.youtube.com/watch?v=pAgnJDJN4VA
+[716.7948172092437744] 2020-11-26 10:54:40,806 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 460 in on_player_play: Running on_player_play
+[716.7978105545043945] 2020-11-26 10:54:40,809 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 709 in serialize_queue: Serializing queue for 767061290098360340
+[719.0415904521942139] 2020-11-26 10:54:43,052 - INFO - musicbot.entry | In entry.py::MainThread(4148), line 302 in _really_download: Download complete: https://www.youtube.com/watch?v=pAgnJDJN4VA
+[719.0435185432434082] 2020-11-26 10:54:43,054 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 270 in get_mean_volume: Calculating mean volume of audio_cache\youtube-pAgnJDJN4VA-AC_DC_-_Back_In_Black_Official_Video.webm
+[719.0474975109100342] 2020-11-26 10:54:43,058 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 244 in run_command: Starting asyncio subprocess (<Process 13684>) with command: "C:\Users\User\Desktop\Disc Bot\MusicBot\bin\ffmpeg" -i "audio_cache\youtube-pAgnJDJN4VA-AC_DC_-_Back_In_Black_Official_Video.webm" -af "volumedetect" -f null /dev/null
+[720.2250115871429443] 2020-11-26 10:54:44,236 - DEBUG - musicbot.entry | In entry.py::MainThread(4148), line 287 in get_mean_volume: Calculated mean volume as -12.9
+[793.0557084083557129] 2020-11-26 10:55:57,067 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -pause
+[793.0586626529693604] 2020-11-26 10:55:57,069 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 527 in on_player_pause: Running on_player_pause
+[1037.9553282260894775] 2020-11-26 11:00:01,966 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -resume
+[1037.9583194255828857] 2020-11-26 11:00:01,969 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 523 in on_player_resume: Running on_player_resume
+[1043.9520494937896729] 2020-11-26 11:00:07,963 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -volume 10
+[1047.9676403999328613] 2020-11-26 11:00:11,978 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -volume 25
+[1121.4722757339477539] 2020-11-26 11:01:25,483 - INFO - musicbot.bot | In bot.py::MainThread(4148), line 2706 in on_message: 319744900126081024/☼Bogdan112☼#6969: -pause
+[1121.4732737541198730] 2020-11-26 11:01:25,484 - DEBUG - musicbot.bot | In bot.py::MainThread(4148), line 527 in on_player_pause: Running on_player_pause

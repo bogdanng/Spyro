@@ -1,0 +1,30 @@
+# Entry removed Wed Nov 25 23:14:01 2020
+# Reason: ERROR: The uploader has not made this video available in your country.
+https://youtube.com/watch?v=P__YyaRlym8
+
+################################
+
+# Entry removed Wed Nov 25 23:14:03 2020
+# Reason: ERROR: This video is not available.
+https://youtube.com/watch?v=uD73uTlu708
+
+################################
+
+# Entry removed Wed Nov 25 23:18:37 2020
+# Reason: ERROR: GqH21LEmfbQ: YouTube said: Unable to extract video data
+https://youtube.com/watch?v=GqH21LEmfbQ
+
+################################
+
+# Entry removed Wed Nov 25 23:18:39 2020
+# Reason: ERROR: J67nkzoJ_2M: YouTube said: Unable to extract video data
+https://youtube.com/watch?v=J67nkzoJ_2M
+
+################################
+
+# Entry removed Wed Nov 25 23:19:10 2020
+# Reason: ERROR: _UZwzA9qr2I: YouTube said: Unable to extract video data
+https://youtube.com/watch?v=_UZwzA9qr2I
+
+################################
+
