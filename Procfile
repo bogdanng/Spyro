@@ -1,1 +1,1 @@
-worker: node run.bat
+worker: node lol.bat
